@@ -1,8 +1,0 @@
-[user]
-	email = jackjhakas67@gmail.com
-	name = Iamafnan
-[init]
-	defaultBranch = master
-[pull]
-	ff = off
-	rebase = off
