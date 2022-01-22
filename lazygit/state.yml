@@ -2,8 +2,8 @@ lastupdatecheck: 0
 recentrepos:
 - /data/data/com.termux/files/home/.config
 - /data/data/com.termux/files/home/.config/nvim
-- /data/data/com.termux/files/home/dev/cmp
 - /data/data/com.termux/files/home/dev/nvim-cmp
+- /data/data/com.termux/files/home/dev/cmp
 - /data/data/com.termux/files/home/.termux
 - /data/data/com.termux/files/home/btop_on_termux
 - /data/data/com.termux/files/home/.config/zsh
