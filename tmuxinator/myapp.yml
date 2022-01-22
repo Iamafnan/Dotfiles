@@ -1,0 +1,7 @@
+name: myapp
+root: ~/dev/my-app/
+
+windows:
+  - editor: vi index.html index.css
+  - server: live-server .
+  - console: 

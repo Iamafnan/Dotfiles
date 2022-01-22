@@ -1,0 +1,28 @@
+lastupdatecheck: 0
+recentrepos:
+- /data/data/com.termux/files/home/.config
+- /data/data/com.termux/files/home/.config/nvim
+- /data/data/com.termux/files/home/dev/cmp
+- /data/data/com.termux/files/home/dev/nvim-cmp
+- /data/data/com.termux/files/home/.termux
+- /data/data/com.termux/files/home/btop_on_termux
+- /data/data/com.termux/files/home/.config/zsh
+- /data/data/com.termux/files/home/dev/web-search
+- /data/data/com.termux/files/home/dev/cmp-emmet
+- /storage/emulated/0/study-notes
+- /data/data/com.termux/files/home/dev/package-info.nvim
+- /data/data/com.termux/files/home/dev/termux-styling
+- /data/data/com.termux/files/home/dev/my-app
+- /data/data/com.termux/files/home/dev/api.afnan
+- /data/data/com.termux/files/home/dev/schemastore.nvim
+- /data/data/com.termux/files/home/dev/better-comments.nvim
+- /data/data/com.termux/files/home/cmp-emmet
+- /data/data/com.termux/files/home/dev/react-project
+startuppopupversion: 5
+customcommandshistory:
+- open repo
+- gh repo creste gtts-project
+- gh repo create gttp-project
+- repo
+- gh browse
+hidecommandlog: true

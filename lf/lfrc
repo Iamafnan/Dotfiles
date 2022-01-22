@@ -1,0 +1,18 @@
+set hidden true
+set ignorecase true
+set drawbox
+set shell zsh
+set shellopts '-ey'
+set ifs "\n"
+
+cmd mkdir %mkdir "$@"
+map ad push :mkdir<space>
+
+cmd mkfile %touch "$@"
+map af push :mkfile<space>
+
+map <enter> push e
+
+map o1 %cd ~/dev/website
+map o2 %cd ~/dev/api.afnan
+map o3 %cd ~/dev/Aoi.Js-tutorial
