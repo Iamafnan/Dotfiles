@@ -4,6 +4,7 @@ set drawbox
 set shell zsh
 set shellopts '-ey'
 set ifs "\n"
+set icons
 
 cmd mkdir %mkdir "$@"
 map ad push :mkdir<space>

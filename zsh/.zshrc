@@ -18,3 +18,5 @@ source ~/.config/zsh/prompt.zsh
 source ~/.config/zsh/exports.zsh
 
 source ~/.config/zsh/completions.zsh
+
+source ~/.config/zsh/lf-icons.zsh
