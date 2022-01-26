@@ -16,3 +16,5 @@ export PATH="/data/data/com.termux/files/home/.local/bin":$PATH
 export USER=afnan
 export HOSTNAME=android
 export THEME="TokyoNight Storm"
+
+export STARSHIP_CONFIG=~/.config/starship/starship.toml

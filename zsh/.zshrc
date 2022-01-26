@@ -13,10 +13,10 @@ source ~/.config/zsh/custom-plugins/web-search.zsh
 source ~/.config/zsh/custom-plugins/dirhistory.zsh
 source ~/.config/zsh/custom-plugins/bd.zsh
 
-source ~/.config/zsh/prompt.zsh
-
 source ~/.config/zsh/exports.zsh
 
 source ~/.config/zsh/completions.zsh
 
 source ~/.config/zsh/lf-icons.zsh
+
+source ~/.config/zsh/prompt.zsh
