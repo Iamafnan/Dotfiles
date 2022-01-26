@@ -25,16 +25,32 @@ yr() {
 }
 
 mkc() {
-  mkdir -p "$1" && cd "$1" || return 1
+	mkdir -p "$1" && cd "$1" || return 1
 }
 
 batdiff() {
-    git diff --name-only --diff-filter=d | xargs bat --diff
+	git diff --name-only --diff-filter=d | xargs bat --diff
 }
 
 gitignore() {
-   touch .gitignore
-   for files in $@; do 
-      echo "${files}" >> .gitignore 
-   done
+	touch .gitignore
+	for files in $@; do
+		echo "${files}" >>.gitignore
+	done
+}
+
+ga() {
+  git add "$@" 
+}
+
+gc() {
+  git commit -m "$@" 
+}
+
+gac() {
+	git commit -a -m "$@"
+}
+
+gp() {
+	git push
 }

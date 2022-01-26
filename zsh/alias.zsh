@@ -22,6 +22,8 @@ alias ygrm="yarn global remove"
 alias yu="yarn upgrade"
 alias ygu="yarn global upgrade"
 
+alias gs="git status"
+
 alias rm="rm -rf"
 
 alias mkdir="mkdir -p"
