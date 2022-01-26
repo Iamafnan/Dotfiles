@@ -13,7 +13,3 @@ cmd mkfile %touch "$@"
 map af push :mkfile<space>
 
 map <enter> push e
-
-map o1 %cd ~/dev/website
-map o2 %cd ~/dev/api.afnan
-map o3 %cd ~/dev/Aoi.Js-tutorial
