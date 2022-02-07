@@ -1,7 +1,45 @@
 # If true then makes the prompt 1 line
 # [line_break]
 # disabled = true
+format = """
+[┌─\\[ $directory\\] ](bold blue)$git_branch$git_status$nodejs$rust$lua$go$python$cmd_duration
+[└─](bold blue)$character"""
 
-# [Battery]
-# disabled = false
-# full_symbol = "Full"
+scan_timeout = 10
+
+[directory]
+read_only = " 🔒"
+read_only_style = "red"
+truncation_length = 10
+truncate_to_repo = true
+
+[character]
+success_symbol = "[→](bold blue)"
+error_symbol = "[→](bold red)"
+vicmd_symbol = "[V](bold green) "
+
+[aws]
+disabled = true
+
+[cmake]
+disabled = true
+
+[cobol]
+disabled = true
+
+[conda]
+disabled = true
+
+[crystal]
+disabled = true
+
+[dart]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[git_branch]
+format = "on [$symbol$branch ]($style)"
+symbol = " " 
+style = "bold purple"

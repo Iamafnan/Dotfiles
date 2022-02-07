@@ -38,19 +38,3 @@ gitignore() {
 		echo "${files}" >>.gitignore
 	done
 }
-
-ga() {
-  git add "$@" 
-}
-
-gc() {
-  git commit -m "$@" 
-}
-
-gac() {
-	git commit -a -m "$@"
-}
-
-gp() {
-	git push
-}
