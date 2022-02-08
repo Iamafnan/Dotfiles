@@ -27,3 +27,5 @@ zinit load zsh-users/zsh-history-substring-search
 zinit load MichaelAquilina/zsh-you-should-use
 
 zinit load changyuheng/zsh-interactive-cd
+
+zinit load z-shell/history-search-multi-word

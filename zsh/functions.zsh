@@ -38,3 +38,8 @@ gitignore() {
 		echo "${files}" >>.gitignore
 	done
 }
+
+ff() {
+	IFS=$'\n' files=($(fzf --query="$1" --multi --select-1 --exit-0 --prompt 'files:'))
+	[[ -n "$files" ]] && ${EDITOR} "${files[@]}"
+}

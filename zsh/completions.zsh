@@ -8,3 +8,4 @@ _pip_completion() {
 }
 
 compctl -K _pip_completion pip
+eval "$(zoxide init zsh)"
