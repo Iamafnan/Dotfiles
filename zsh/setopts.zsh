@@ -17,3 +17,6 @@ setopt autocd
 setopt correct
 
 unsetopt BGNICE
+
+# Vi mode :)
+# set -o vi

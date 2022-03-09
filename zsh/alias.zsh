@@ -8,11 +8,11 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-alias api="pkg install"
-alias aprm="pkg uninstall"
-alias apse="pkg search"
+alias api="apt install"
+alias aprm="apt remove"
+alias apse="apt search"
 alias apsh="apt show"
-alias apu="pkg up"
+alias apu="apt update -y && apt upgrade -y"
 alias apar="apt autoremove"
 
 alias y="yarn"
@@ -23,14 +23,12 @@ alias ygu="yarn global upgrade"
 
 alias rm="rm -rf"
 
-alias mkdir="mkdir -p"
+alias v="nvim"
 
-alias mux="tmuxinator"
+alias mkdir="mkdir -p"
 
 alias fzf="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
 
-alias zoom="am start us.zoom.videomeetings/com.zipow.videobox.LauncherActivity"
 alias chrome="am start com.android.chrome"
-alias brave="am start com.brave.browser"
 alias ig="am start com.instagram.android/com.instagram.android.activity.MainTabActivity"
 alias discord='am start com.discord/com.discord.app.AppActivity\$Main'

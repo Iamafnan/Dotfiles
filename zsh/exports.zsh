@@ -17,4 +17,7 @@ export USER=afnan
 export HOSTNAME=android
 export THEME="TokyoNight Storm"
 
+export LANG="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
+
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
