@@ -3,7 +3,7 @@
 # disabled = true
 format = """
 [┌─\\[ $directory\\] ](bold blue)$git_branch$git_status$nodejs$rust$lua$go$python$cmd_duration
-[└─](bold blue)$character"""
+[└](bold blue)$character"""
 
 scan_timeout = 10
 
@@ -14,9 +14,9 @@ truncation_length = 10
 truncate_to_repo = true
 
 [character]
-success_symbol = "[→](bold blue)"
-error_symbol = "[→](bold red)"
-vicmd_symbol = "[V](bold green) "
+success_symbol = "[─→](bold blue)"
+error_symbol = "[─→](bold red)"
+vicmd_symbol = "[─→](bold green)"
 
 [aws]
 disabled = true
